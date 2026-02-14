@@ -1,0 +1,101 @@
+APPLICATION
+	- Interface Layer
+	- Business Layer
+	- Data Layer
+------
+DeskTop APplications		1 Tier Architecture
+Distributed Applications	Client-Server Arch Style - 2 Tier/3 Tier/N Tier 
+Web Applications	- Distributed
+Mobile APplications	- 
+
+
+-------------
+		OOA  / ROA / SOA/ MVC vs Traditiona 3 Tier /N tier RAch
+-----------
+
+
+
+
+Apache Tomcat
+WebLogic
+IBM Websphere
+SUn APp Server
+Glass Fish
+
+
+
+
+
+
+
+
+CLIENT SIDE TECHNOLOGIES		SERVER SIDE TECHNOLOGIES
+
+html					CGI
+CSS					
+				JAVA		.NET	PHP	PYTHON	MEAN	MERN
+JS
+---
+Bootstrap			Java/Kotlin/Groovy	    C#/VB/VC++       php	python       Angular	  React
+Tailwind
+--------			=================================================================
+reactJS\
+ANgular		3tier	Servlets/JSP		ASP	php	python	NodeJS	NODEJS
+ANgularJS		RMI/EJB/CORBA		ASP.Net
+NextJS			
+--				
+JQuery		MVC	SpringMVC/SPRINGBoot		.NetCore   phpMVC
+			Velocity/ROR
+
+			JDBC  vs ORMS[hibernate/toplink/ejb/springdata jpa
+
+				MYSQL/ORACLE/MSSQL/POSTRGER
+
+
+DESIGN PATTERNS
+3 Phases
+		ANALYSIS
+		DESIGN [Architecting/Modelling]
+		CONSTRUCTION GOF [3 Behavioural/STructural/Creationa
+
+
+
+class MyServlet extends HttpServlet
+{
+	get()
+	{
+
+	Get Employees 1000<------ JDBC
+	analyse - A/B /C
+	Bonus/Increments
+	----Project HTML
+	
+
+
+	}
+
+
+}
+
+MVC style
+
+	Segregation Of Concerns
+	Dependency Injection
+	IOC
+	AOP - aspect Oriented Programming
+
+
+
+
+
+
+SAPTARSHI
+	saptarshibasu124@gmail.com
+
+
+
+
+
+
+
+

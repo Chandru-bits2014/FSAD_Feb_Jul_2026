@@ -1,0 +1,65 @@
+INTERFACE LAYER
+BUSINESS
+DATA LAYER
+				9972450732 CHANDRA
+---------
+	DESKTOP
+	DISTRIBUTED
+	WEB APPS
+	MOBILE
+
+	1 Tier
+	2 Tier / 3 Tier
+	N Tier
+
+CLIENT SIDE TECHNOLOGIES		SERVER SIDE TECHNOLOGIES
+
+html			|java		.Net		PHP	PYTHON	MERN	MEAN
+css			Kotlin/groovy	C#/VB/VC++			JS	JS/TS
+js				
+---
+ReactJS		3Tier	Servlets/JSP	asp		
+AngularJS		EJB/RMI/CORBA	asp.net
+--NextJS			
+---------			
+BootStrap			SpringBoot/SpringMVC .net core	PHP mvc	Python mvc
+JQuery		MVC	ROR/VELOCITY
+Tailwind
+			JDBC/ORM	ADO.Net/ EF
+
+					MYSQL/MSSQL/MONGO/HADOOP/CASSANDRA/ORACLE
+					SYBASE/POSTGRE
+
+
+
+MVC is an arch level design pattern
+
+		Architecture Level
+		Analysis/Design
+		Construction
+
+
+
+class MyServlet extends HttpServlet
+{
+	1000 employees
+	A/B/C
+	Bonus/Increments
+	View-Html
+
+
+
+
+}
+MVC
+	SEGREGATION OF CONCERNS
+	DEPENDENCY INJECTION
+	IOC
+	AOP
+
+
+
+
+
+
+
