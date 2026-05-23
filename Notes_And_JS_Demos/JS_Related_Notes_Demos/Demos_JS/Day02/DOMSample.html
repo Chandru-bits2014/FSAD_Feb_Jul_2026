@@ -1,0 +1,21 @@
+addEvent(window,'load',initialize);
+function initialize()
+{
+var mySub = document.getElementById('sub1');
+addEvent(mySub,'click',performDOM);
+}
+function performDOM()
+{
+//Created Date Object
+var myDate = new Date();
+//Fetched the Current date in String Format
+var myDateStr = myDate.toLocaleString();
+//Retrieving Object whose Id is sp1
+var obj1 = document.getElementById('sp1');
+//Creating a TextNode with content myDateStr
+var myNode = document.createTextNode(myDateStr);
+//Removing firstChild of obj1-span
+obj1.removeChild(obj1.firstChild);
+// append the newly created node as child node to obj1
+obj1.appendChild(myNode);
+}

@@ -1,0 +1,37 @@
+<html>
+<head>
+<script language="javascript">
+function display()
+{
+var eName,eAddr,score1,score2,totScore;
+eName=document.getElementById('tn').value;
+eAddr=document.getElementById('ta').value;
+score1=document.getElementById('t1').value;
+score2=document.getElementById('t2').value;
+totScore=parseInt(score1)+parseInt(score2);
+document.writeln("Employee Name :"+eName);
+document.writeln('<br>');
+document.writeln("Employee Address :"+eAddr);
+document.writeln('<br>');
+document.writeln("Employee Score1 :"+score1);
+document.writeln('<br>');
+document.writeln("Employee Score2 :"+score2);
+document.writeln('<br>');
+document.writeln("Employee Total score :"+totScore);
+
+
+
+}
+</script>
+</head>
+<body>
+Enter Name:<input type="textBox" id="tn" /><br>
+Enter Address:<input type="textBox" id="ta" /><br>
+Enter Score1:<input type="textBox" id="t1" /><br>
+Enter Score2:<input type="textBox" id="t2" /><br>
+<input type="submit" value="Send Data" onClick="display()" />
+
+
+</body>
+
+</html>

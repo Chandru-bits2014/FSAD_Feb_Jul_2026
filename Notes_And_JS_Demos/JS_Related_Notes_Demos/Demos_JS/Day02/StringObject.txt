@@ -1,0 +1,18 @@
+var doc;
+doc+="<html>";
+doc+="<body>";
+doc+=
+-----------------------------
+escape sequence
+\"  \'   \n \t \\
+----------------------------
+String Object:
+
+properties:
+constructor
+length
+prototype
+-------------------------------
+Methods:
+anchor()/big()/blink()/bold()/charAt()/charCodeAt()/concat()/fixed()/fontcolor()/fontsize()/fromCharCode()/indexOf()/italics()/lastIndexOf()/link()/localeCompare()/
+match()/replace()/search()/replace()/search()/slice()/small()/split()/strike()/sub()/substr()/substring()/sup()/toLocaleLowerString()/toLocaleUpperString()/toLowerCase()/toUpperCase()/toString()/valueOf()

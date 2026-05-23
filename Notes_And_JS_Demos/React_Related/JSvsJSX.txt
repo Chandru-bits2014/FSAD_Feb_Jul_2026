@@ -1,0 +1,35 @@
+PATH FOR REAL REACT LEARNING
+C:\Training2020-21\Training2020-21-22\AGreatLearning_Content_SeparationSep2024\Downloads_Content_For_GLCA_BEnd\ReactLearning\ReactLearning-main
+
+JSX Code:
+
+const App = () => {
+    return <div>Hello world!</div>
+}
+Equivalent JS Code:
+
+const App = () => {
+  return React.createElement("div", null, "Hello world!");
+};
+------------------------------------
+JS 
+uses traditional & es7 based JS syntaxes and more
+code oriented
+whereas JSX uses html kind of code which in turn converts it into JS
+
+==========================
+Installations for CRUD Project
+
+npm install react-router-dom
+npm install axios
+npm install bootstrap
+npm install json-server
+
+==================
+SpringBoot accessing Multiple DBs
+1) GOOD ONE
+https://in.video.search.yahoo.com/search/video?fr=mcafee&p=How+to+use+multiple+DBMS+in+springboot+application%3F&type=E210IN1494G0#id=1&vid=cc9eb34f2bb78c71626173759a1940ba&action=click
+
+
+2)
+https://in.video.search.yahoo.com/search/video?fr=mcafee&p=How+to+use+multiple+DBMS+in+springboot+application%3F&type=E210IN1494G0#id=4&vid=e73b847ae3fd50b0a2dd15b9f5b8c4fe&action=view

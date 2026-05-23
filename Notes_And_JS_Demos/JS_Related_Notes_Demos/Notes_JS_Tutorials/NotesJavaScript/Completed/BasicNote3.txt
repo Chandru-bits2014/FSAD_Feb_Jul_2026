@@ -1,0 +1,57 @@
+Webapp 
+[WebServer]<--->|Application-.Net/J2EE/PHP        |-App Server|<---> RDBMS
+	                  - |Javascript/VBScript|
+|
+|
+|
+V
+HTML--- http
+|
+|
+V
+Browser
+|
+|
+V
+User
+
+
+
+
+Class Student
+Student st
+
+var obj
+
+
+
+
+
+
+-----------------------------------
+Javascript Components
+|
+|
+|
+Objects-Properties-Events-Functions--
+-----------------------------------
+Javascript Features:
+Object Based Scripting language
+No Function Overloading
+Control Structures-If..else/If else if/Switch/
+Loops-
+Operators
+loosely/weakly typed
+-----------------------------------
+Simple structure
+
+-----------------------------------
+Operators
+-Mathematical (+ - / * %)
+-Logical (&& || !)
+-Comparison (< <= > >= !=)
+-----------------------------------
+
+
+
+

@@ -1,0 +1,31 @@
+<html>
+<head>
+<script language="javascript">
+document.write("WELCOME TO CLIENT SIDE SCRIPTING");
+function disp()
+{
+alert("WELCOME TO JAVASCRIPTING");
+var obj=document.lastModified;
+document.write(obj);
+document.write('<br>');
+var obj1=document.location;
+document.write("The Location is" +obj1);
+document.write('<br>');
+var mydt=new Date();
+document.write("The date is"+mydt);
+document.write('<br>');
+document.write("The formatted date is"+mydt.toLocaleString());
+
+
+
+}
+
+</script>
+
+</head>
+<body>
+<input type="submit" value="Submit Details" onClick="disp()" />
+
+
+</body>
+</html>

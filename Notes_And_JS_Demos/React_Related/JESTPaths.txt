@@ -1,0 +1,7 @@
+https://jestjs.io/docs/getting-started
+
+https://jestjs.io/
+
+https://www.youtube.com/watch?v=cAKYQpTC7MA
+
+https://devdocs.io/jest/

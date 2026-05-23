@@ -1,0 +1,32 @@
+<html>
+<script language="javascript">
+function disp()
+{
+var str="internet";
+var str1=str.substr(2,3);
+document.write(str1);
+var str2=str.slice(2,4);
+document.write(str2);
+
+
+}
+function disp1()
+{
+var myarray=["Hello","world","nice","world"];
+
+var finalstr=myarray.join(":");
+//document.writeln(finalstr);
+var arr1=finalstr.split(":");
+for(var i=0;i<arr1.length;i++)
+{
+
+document.write("element"+arr1[i]);
+}
+}
+</script>
+Enter string1:<input type="textBox" id="t1" /><br>
+Enter string2:<input type="textBox" id="t2" /><br>
+<input type="button" value="string" onClick="disp()" />
+<input type="button" value="array" onClick="disp1()" />
+
+</html>

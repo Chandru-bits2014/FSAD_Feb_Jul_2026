@@ -1,0 +1,55 @@
+
+<html>
+<script language="javascript">
+function addDisplay(obj1,obj2)
+{
+var sum;
+sum=parseInt(obj1)+parseInt(obj2);
+alert("The result is "+sum);
+return sum;
+}
+
+var result;
+result=addDisplay(100,200);
+document.write("The function which takes arguments and returns value");
+document.write("The result returned by the function is "+result);
+
+function addDisplay1()
+{
+var num1,num2,total;
+num1=prompt("Enter First Number ");
+num2=prompt("Enter second Number");
+total=parseInt(num1)+parseInt(num2);
+document.write("The sum calculated inside the function is "+total);
+}
+document.write("The function which takes no args and returns no arg");
+addDisplay1();
+
+function addDisplay2(obj3,obj4)
+{
+var product;
+product=obj3*obj4;
+document.writeln("The product of your Numbers displayed inside the function: "+product);
+
+
+}
+document.write("The function which takes args and returns nothing");
+addDisplay2(200,100);
+
+function addDisplay3()
+{
+var numx,numy,prod;
+numx=prompt("Enter a NUmber");
+numy=prompt("Enter another NUmber");
+prod=numx*numy;
+document.write("The product displayed within the function is :"+prod);
+return prod;
+
+}
+document.write("The function which doesnt take args but returns value");
+var result=addDisplay3();
+document.writeln("The Result returned is "+result);
+</script>
+<body>
+</body>
+</html>

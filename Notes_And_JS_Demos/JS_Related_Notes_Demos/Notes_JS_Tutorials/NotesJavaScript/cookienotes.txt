@@ -1,0 +1,45 @@
+State Management/Session Management
+
+StateMgmt is a process by which one can manage and maintain the information about the client
+
+State mgmt becomes critical when the client information becomes crucial for eg.in banking application one may have to maintain the pin number of a client and corresponding account number for the entire session across the web pages and have to process all data only wrt the said acct number,
+
+(session: is a period interval between the connection and disconnection to the site by the user, many times it could be interval between  login and logout )
+
+Therefore maintaining state information becomes critical and essential
+
+Normally 
+there are 2 types of facilities available for state management
+a) Client side options
+ namely
+   -----Cookies
+   -----Query String(URL rewriting)
+   -----Hidden Control
+   -----View State property
+b) Server Side options
+  ------Session Object
+  ------Application Object
+  ------ SQL Server
+Many options could be discussed when a partivular server side technology is being learnt
+----------------------------------------------------------------------------------------------
+Cookies:Cookies are chunks of data in the form of strings which could be generated on the server side and could be sent to the clients .
+
+Cookies could be used to maintain client information 
+
+Two types of cookies are 
+a) Persistent cookie(Permanent)
+b)Non Persistent Cookie(Temporary)
+Every time a cookie is generated in the domain(site) it would be sent along with the response to the client and the cookie resides in the hard disc of the client, 
+Next time when the request reaches the same domain from the same system the request would get attached with the cookie wrt that domain automatically
+Server would have the facility to fetch the cookie from the request and manipulate it.
+One site may produce any Number of cookies
+But one client can store max of 20 cookies wrt a site and 1 cookie could store 4Kb
+Persistent cookies are those which have a particular expiry date after the time lapses the cookie dies non persistent cookie would be alive only for that session
+Mostly cookies could be used for sending small information in the form of advertisements etc.,
+Not always cookies carry virus, not all pop ups are cookies, not all ads are cookies.
+
+
+
+
+
+----------------------------------------------------------------

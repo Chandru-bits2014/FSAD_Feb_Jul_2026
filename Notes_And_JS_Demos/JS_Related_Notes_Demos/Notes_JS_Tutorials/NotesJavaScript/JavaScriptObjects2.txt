@@ -1,0 +1,27 @@
+Objects:
+
+Function
+Object
+Number
+Boolean
+Date
+Math
+Null
+String
+Array
+-------
+function add()
+-----------------------------------
+Objectives Of The Day
+Usage of Date Objects
+Usage of Array 
+Events like onMouseOver onMouseOut
+Fetch data from HTML Page
+Math Functions
+Document Object Methods & Events Binding
+Window Object and its Methods
+How to Trap data from RadioButton/CheckBox/ComboBox
+Protyping
+String
+------------------------------------
+---

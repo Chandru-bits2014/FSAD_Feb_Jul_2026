@@ -1,0 +1,6 @@
+var dt1=new Date()
+var arr1=new Array(5)
+var str=new String();
+var str=new String("Hello World")
+var math1=new Math()
+Math.sqrt(

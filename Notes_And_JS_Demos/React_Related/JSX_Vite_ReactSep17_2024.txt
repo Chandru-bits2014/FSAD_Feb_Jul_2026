@@ -1,0 +1,61 @@
+Codevolution
+https://medium.com/@codersauthority/how-to-create-a-bare-minimum-react-project-with-jsx-from-scratch-7c1fc83344be
+
+
+8 Hr course
+https://in.video.search.yahoo.com/search/video?fr=mcafee&p=how+to+create+a+jsx+based+project+in+react%3F&type=E210IN1494G0#id=1&vid=b980972a0461b935f72b0d65d7362d0d&action=click
+
+
+JSX project VITE
+https://in.video.search.yahoo.com/video/play;_ylt=AwrKAzCddulmGdkJqXHmHAx.;_ylu=c2VjA3NyBHNsawN2aWQEZ3BvcwMxMg--?p=how+to+create+a+jsx+based+project+in+react%3F&vid=698e425a158f1e208c69f23de5a3800e&turl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOVP.aQ-hs81gsB2iSPBJLO7HjQHgFo%26pid%3DApi%26h%3D360%26w%3D480%26c%3D7%26rs%3D1&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRh3tobg7hEo&tit=Learn+%3Cb%3EReact%3C%2Fb%3E+With+This+One+%3Cb%3EProject%3C%2Fb%3E&c=11&sigr=bQh5x0xEIaea&sigt=1vBgrpk0sUGq&sigi=hRQK90UZ2_18&fr2=p%3As%2Cv%3Av&h=360&w=480&l=2558&age=1680969614&fr=mcafee&type=E210IN1494G0&tt=b
+
+Commands for Vite Project
+After Opening a ProjectFolder(Empty)
+1) Add "Vite" extension : "VSCode forVite"
+2) npm create vite@latest
+answer following prompts
+--ProjectName :   enter     just  .  (dot) indicating current folder
+--Select a Framework : React
+-- Select a Variant : Javascript + SWC Or(just Javascript)
+
+Then in the same cmd prompt type
+3) npm i  [to install all dependencies]
+4) to run app : cmd --> npm run dev
+
+it will automatically run on browser then do the changes
+NOTE : For all the above Prior to which nodejs should have been installed
+---------------------------
+
+ABOUT VITE:
+https://luketheweb.dev/blog/what-is-vite-and-why-should-you-use-it-instead-of-create-react-app
+
+
+JS vs JSX Notes:
+
+https://dev.to/leetcode/js-vs-jsx-should-you-write-your-react-code-in-jsx-3mp9
+
+https://webtips.dev/javascript-vs-jsx
+
+BASICS: folder structure explanation etc:
+
+https://medium.com/@codersauthority/how-to-create-a-bare-minimum-react-project-with-jsx-from-scratch-7c1fc83344be
+
+VSCODE EXTENSIONS:
+
+https://dev.to/devland/vs-code-extensions-you-should-use-as-a-react-developer-2f6i
+
+ROUTER
+https://blog.logrocket.com/react-router-dom-tutorial-examples/
+ROUTER BETTER ONE
+https://in.video.search.yahoo.com/search/video;_ylt=AwrKBSSurupmPQQAojq7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=react+router+%2B+component+example&fr2=piv-web&type=E210IN1494G0&fr=mcafee#id=2&vid=ed6b6633f2793725c441c7073dc1dce3&action=view
+
+
+GOOD CRUD + API
+https://in.video.search.yahoo.com/video/play;_ylt=AwrKAzAnxOpmHzMW9EjmHAx.;_ylu=c2VjA3NyBHNsawN2aWQEZ3BvcwM4?p=simple+react+js+app+with+routers+to+do+crud+on+api&vid=e24295e7f9148a39f5e74df2a9cfcc83&turl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOVP.6KauQ6nqKeTKEPxqHBsa5gHgFo%26pid%3DApi%26h%3D360%26w%3D480%26c%3D7%26rs%3D1&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgOa5GGw40pk&tit=Learn+%3Cb%3ECRUD%3C%2Fb%3E+using+React+JS+%7C+%3Cb%3ECRUD%3C%2Fb%3E+Operation+Crash+Course&c=7&sigr=YuGH9Xt.GsXw&sigt=aNFubE555_FG&sigi=XoJn8i4knBJb&fr2=p%3As%2Cv%3Av&h=360&w=480&l=4384&age=1656913819&fr=mcafee&type=E210IN1494G0&tt=b
+
+GOOD CRUD + API + ROUTER
+https://in.video.search.yahoo.com/search/video;_ylt=AwrKF0vGw.pmZAQAojq7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=simple+ReactJS+app+with+routers+to+do+crud+on+api&fr2=piv-web&type=E210IN1494G0&fr=mcafee#id=13&vid=e0dc323c02ae813f6b48ac3e5a5cd13e&action=view
+===================
+studentApi
++
+StudentMgmtRoute

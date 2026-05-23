@@ -1,0 +1,16 @@
+var mywin=createWindow()
+mywin.Open()
+mywin.close()
+Objects
+Window-------------
+|	|	|
+|	|	|
+|	|	|
+Screen-History	|
+		|
+		Document
+			|
+			|
+		head		       Body
+		Title			P   Form   Table
+window.document.logo.src

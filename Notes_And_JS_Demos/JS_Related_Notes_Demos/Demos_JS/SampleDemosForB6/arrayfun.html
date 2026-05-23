@@ -1,0 +1,41 @@
+<html>
+<head>
+<script language="javascript">
+function joinarray()
+{
+var nums=["one","two","three","four","five"];
+var myarr=nums.join("?");
+document.write("The joined array is :"+myarr);
+
+
+
+}
+function splitarray()
+{
+var nums=["one","two","three","four","five"];
+var myarr=nums.join(";");
+document.write("The joined array is"+myarr);
+var mysecarr=myarr.split(";");
+for(var i=0;i<mysecarr.length;i++)
+{
+
+document.write("The element is "+mysecarr[i]);
+document.write('<br>');
+
+}
+
+
+
+
+}
+</script>
+</head>
+<body>
+<input type="button" value="split" id="b1" onClick="splitarray()" />
+<input type="button" value="join" id="b2" onClick="joinarray()" />
+
+
+
+
+</body>
+</html>

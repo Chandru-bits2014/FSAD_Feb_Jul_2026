@@ -1,0 +1,308 @@
+---------------------------------------------------------------------------------------------------11 July 2022------------------------------------------------------------------------------------------------------
+
+React JS is Javascript based framework used to create UI layer.
+
+ReactJS was developed by Jordan- Walke , working as a SOftware Engineer in FaceBook.
+
+ReactJS takes its place as "View" in MVC architecture
+
+ReactJS itself provide MVC architectural style on the UI front, therefore it is component based which signifies reusability of the pages
+
+ReactJS is the counterpart of Angular/ANgularJS/BackBone JS which are other JS based frameworks which promote MVC style in the UI layer.
+
+To Learn
+ReactJS Introduction
+ReactJS Features
+ReactJS Installation
+ReactJS  Pros & Cons
+ReactJS JSX
+ReactJS Components
+ReactJS State
+ReactJS Props
+ReactJS Forms
+ReactJS Events
+ReactJS Animations
+---------------------------------------------------------------------------------------------------11 July 2022-------[16.50 to 17.15 ]------------------------------------------------------------------------------
+ReactJS framework - Enables one to create SPApplications with ease
+
+ReactJS - The building block of ReactJS app would be component, entir ReactJS app is created using various components, like for example Form itslef is a component within which each element itself is a component , so building up components using Components.
+---------------------------------------------------------------------------------------------------11 July 2022-------[18.10 to 19.10 ]------------------------------------------------------------------------------
+Advantageous feature of ReactJS over traditional frameworks is that traditionally DOM which is being implemented by Browser for loading a Page and everytime it has to load new page , itloads entire document freshly and then even small changes would update entir page using memory trips and memory usage very highly, but ReactJS follow in memory representation of Dom page all compoenents are chnaged in the in-memory representation and for anychanges entir page is not reloaded but only part of that though things change in the in-memory representation.
+this is the principle of SPA
+
+Pre Requisites for ReactJS
+1) NodeJS and NPM
+2) React and ReactDOM
+3) Webpack
+4)Babel
+There are two ways to set up an environment for successful ReactJS application. They are given below.
+--------------------------------------------------------------------SET UP / ISNTALLATION-------------------------------------------------------------------------------------------------------------------
+Using the npm command
+Using the create-react-app command
+
+1)After the Installation of NodeJS and NPM
+2) Create a folder reactJS at any location
+and in Node Command Prompt go to that folder
+		and type this command :  npm init -y  
+------------actually to write into package.json file---
+If it does not allow in a location change the location of reactJS to some other location where it allows
+3) Now install react using this command :  npm install react react-dom --save  
+
+OR the above last command can be broke like this
+a) npm install react --save  
+b) npm install react-dom --save  
+
+---------------------ReactJS INSTALLATION COMPLETE-------------------
+--------------------Install Webpack---------------------------------------------
+
+Webpack is used for module packaging, development, and production pipeline automation.
+Install Webpack
+
+Webpack is used for module packaging, development, and production pipeline automation. We will use webpack-dev-server during development, webpack to create production builds, and webpack CLI provides a set of commands. Webpack compiles these into a single file(bundle). 
+
+
+use command : npm install webpack webpack-dev-server webpack-cli --save
+OR individually
+
+npm install webpack --save  
+npm install webpack-dev-server --save  
+npm install webpack-cli --save
+-----------------------
+Babel is a JavaScript compiler and transpiler used to convert one source code to others. It compiles React JSX and ES6 to ES5 JavaScript which can be run on all browsers. We need babel-loader for JSX file types, babel-preset-react makes your browser update automatically when any changes occur to your code without losing the current state of the app. ES6 support requires babel-preset-env Babel preset. 
+
+COMMAND: npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev
+OR INDIVIDUALLY
+npm install babel-core --save-dev  
+npm install babel-loader --save-dev  
+npm install babel-preset-env --save-dev  
+npm install babel-preset-react --save-dev  
+npm install babel-webpack-plugin --save-dev  
+
+----------------
+To complete the installation process, you need to add the following files in your project folder. These files are index.html, App.js, main.js, webpack.config.js and, .babelrc. You can create these files by manually, or by using the command prompt.
+
+touch index.html  
+touch App.js  
+touch main.js  
+touch webpack.config.js  
+touch .babelrc  
+
+------------------
+You can configure webpack in the webpack.config.js file by adding the following code. It defines your app entry point, build output and the extension which will resolve automatically. It also set the development server to 8080 port. It defines the loaders for processing various file types used within your app and wrap up by adding plugins needed during our development.
+
+------------------------------------------------------------------------------------25 July 2022------------------
+Basics & Foundation
+	Components & Building UIs
+	Working with Events & Data "props " and "state"
+	Styling React Apps & Components
+	React Hooks
+Advanced Concepts
+	Side Effects , "Refs" & More React Hooks
+	Context APIs and REDUX
+	Forms ,Http Requests & Custom Hooks
+	Routing Deployment,
+	NextJS & More
+Summaries & Refreshers
+	JavaScript refresher
+	ReactJS summary
+-------------------------------------
+View Extensions
+Prettier
+Material Icon theme
+---------------------------
+JSBin.com
+--------------------------------------------------------------------------------------Next Gen JS features----------------------------
+let vs var
+export import
+classes
+-----------------------------------
+person.js
+const person = {
+return:'Max'
+}
+export default person
+----------------------------------------------------export/import--------------------------------------
+utility.js
+export const clean = () => {...}
+export const baseData = 10;
+
+app.js
+import person from './person.js'
+import {baseData} from './utility.js'
+import {clean} from './utility.js'
+or
+import {clean,baseData} from './utility.js'
+or import * as bundled from './utility.js'
+
+-----------------------------------------------------------classes-----26-Jul-2022------------------------------------
+class Human
+{
+	constructor()
+	{
+		this.gender = 'male';
+	}
+	printGender()
+	{
+		console.log(this.gender);
+	}
+
+}
+class Person extends Human
+{
+	constructor()
+	{
+		super();
+		this.name = "Max";
+	}
+	printMyName()
+	{
+		console.log(this.name);
+	}
+
+}
+const person = new Person();
+person.printMyName();
+person.printGender();
+-------------------------------CLASSES , PROPERTIES & METHODS
+
+Properties are like variables of classes
+Methods are like functions of classes
+
+REDINED BUT RUN ON ES6/BABEL 
+class Human
+{
+	
+		this.gender = 'male';
+	
+	printGender =()=>
+	{
+		console.log(this.gender);
+	}
+
+}
+class Person extends Human
+{
+	
+	name = "Max";
+	
+	printMyName = () =>
+	{
+		console.log(this.name);
+	}
+
+}
+const person = new Person();
+person.printMyName();
+person.printGender();  would work when we select ES6/BABEL
+-----------------------------------SPREAD & REST OPERATOR------------------------------
+         ...          3 dots
+SPREAD used to split array elements or object properties
+
+const newArray = [ ...oldArray,1,2]
+
+const newObj = { ...oldObject, newProp:5 }
+
+REST used to merge a list of function arguments into an array
+function sortArgs(...args){
+ return args.sort()
+
+}
+-------------------EXAMPLE
+const numbers = [1,2,3];
+const newNUmbers = [...numbers , 4 ];
+
+console.log(newNumbers);   will print 1,2,3,4
+
+-------------------------
+const person={
+ name : 'Max'
+}
+
+const newPerson = {
+    ...person,age:28
+}
+
+console.log(newPerson);    will print      [object Object]{ age:28, name : "Max"}
+
+-------------------------REST
+const filter = (...args )=>{
+ return args.filter(el => el === 1);
+}
+console.log(filter(1,2,3)); will print 1
+--------------------------------------------------DESTRUCTURING--------------------------------------------------
+Easily extract arraye lements and object properties and store them in variables
+
+ARRAY Destructuring
+[a,b] = {'Hello','Max'}
+console.log(a)
+console.log(a)
+
+----------
+OBJECT DESTRUCTURING
+{name} ={name:'Max',age:28}
+console.log(name)
+console.log(age)
+---------------
+JSBIn
+
+const numbers =[1,2,3];
+[nim1,num2] = numbers;
+
+console.log(num1,num2)   prints 1 2
+----------------------------------------------------------------------------
+Reference & Primitive Type
+const number = 1;
+const num2 = number;
+console.log(num2);
+
+variables of primitive type
+Objects & arrays reference types
+------------------------------------------------------
+ARRAY Functions
+const numbers = [1,2,3];
+
+const doubleNumbers = numbers.map((num) => { return num * 2});
+
+consol.log(numbers) would print 1,2,3
+console.log(doubleNumbers) would print 2,4,6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+

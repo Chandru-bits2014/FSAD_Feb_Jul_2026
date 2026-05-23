@@ -1,0 +1,31 @@
+<html>
+<head>
+<script language="javascript">
+function display()
+{
+var employeeName;
+var employeeAddress;
+employeeName=prompt("Enter Employee Name");
+employeeAddress=prompt("Enter Employee Address");
+
+var score1,score2;
+score1=prompt("Enter the Employee Score1");
+score2=prompt("Enter the Employee Score2");
+var score=parseInt(score1)+parseInt(score2);
+
+
+document.writeln("Employee Name is :"+employeeName);
+document.writeln('<br>');
+document.writeln("Employee Address is :"+employeeAddress);
+document.writeln('<br>');
+document.writeln("Employee Score is:"+score);
+
+
+}
+</script>
+</head>
+<body>
+<input type="submit" value="Prompt" onClick="display()" />
+
+</body>
+</html>

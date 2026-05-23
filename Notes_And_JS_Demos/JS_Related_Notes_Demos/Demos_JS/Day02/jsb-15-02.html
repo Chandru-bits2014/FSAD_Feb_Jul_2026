@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+addEvent(window, 'load',initialize);
+addEvent(document,'mouseup',showCharCode);
+function initialize()
+{
+if(document.getElementById)
+{
+var oButton=document.getElementById('showstr');
+if(oButton)
+{
+addEvent(oButton,'click',showString);
+}
+}
+}
+function showString()
+{
+var oEntry1=document.getElementById('entry1');
+var oEntry2=document.getElementById('entry2');
+var oEntry3=document.getElementById('entry3');
+var oResult=document.getElementById('result');
+oResult.value=String.fromCharCode(oEntry1.value,oEntry2.value,oEntry3.value);
+
+}
+
+function showCharCode()
+{
+var theText="";
+var oDisplay=document.getElementById('display');
+if(window.getSelection)
+{
+
+theText=window.getSelection.toString();
+}
+else if(document.getSelection)
+{
+
+theText=document.getSelection();
+}
+else if(document.selection && document.selection.createRange)
+{
+theText=document.selection.createRange().Text;
+}
+if(theText)
+{
+oDisplay.value=theText.charCodeAt();
+}
+else
+{
+oDisplay.value=" ";
+}
+}
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Character Codes</title>
+<script type="text/javascript" src="../jsb-global.js"></script>
+<script type="text/javascript" src="jsb-15-02.js"></script>
+</head>
+<body>
+<h1>Character Codes</h1>
+<form action="showstring.php">
+<h2>Capturing Character Codes</h2>
+<p>Select any text on this page and see the character code of the first character</p>
+<p>
+<label for="display" >Character Code:</label>
+<input type="text" id="display" name="display" size="3" />
+</p>
+<h2>Converting Codes To Characters</h2>
+<p>
+<label for="entry1" > Enter a Value 0-255</label>
+<input type="text" id="entry1" name="entry1" size="6" />
+</p>
+
+<p>
+<label for="entry2" > Enter a Value 0-255</label>
+<input type="text" id="entry2" name="entry2" size="6" />
+</p>
+
+<p>
+<label for="entry3" > Enter a Value 0-255</label>
+<input type="text" id="entry3" name="entry3" size="6" />
+</p>
+<p>
+<input type="button" id="showstr" value="Show String" />
+<label for="result">Result :</label>
+<input type="text" id="reslt" name="result" size="5" />
+</p>
+</form>
+</body>
+</html>
+

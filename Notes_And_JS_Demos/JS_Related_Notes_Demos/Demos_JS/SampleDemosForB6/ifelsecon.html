@@ -1,0 +1,159 @@
+<html>
+<script language="javascript">
+function display()
+{
+var score;
+score=prompt("Enter Your Score");
+	if(score >= 50)
+	{
+	alert("Good passed");
+	}
+	else
+	{
+	alert("Sorry,Try again");
+	}
+
+
+}
+function display1()
+{
+var score;
+score=prompt("Enter Your Score");
+if((score>=0)&&(score<=100))
+{
+	if((score >= 50) && (score < 60))
+	{
+	alert("Good passed");
+	}
+	else if((score>=60)&&(score<70))
+	{
+	alert("Congrats,First Class");
+	}
+	else if((score>=70)&&(score<=100))
+	{
+	alert("Excellent,Distinction");
+	}
+	else
+	{
+	alert("Sorry,Try again");
+	}
+}
+else
+{
+alert("Sorry valid Range is 0-100");
+}
+}
+function display2()
+{
+var day=prompt("Enter the Day");
+switch(day)
+{
+	case "one":
+	{
+	 document.writeln("The Day is Sunday");
+	 break;
+	}
+	case "two":
+	{
+	 document.writeln("The Day is Monday");
+	 break;
+	}
+	case "three":
+	{
+	 document.writeln("The Day is Tuesday");
+	 break;
+	}
+	case "four":
+	{
+	 document.writeln("The Day is Wednesday");
+	 break;
+	}
+	case "five":
+	{
+	 document.writeln("The Day is Thursday");
+	 break;
+	}
+	case "six":
+	{
+	 document.writeln("The Day is Friday");
+	 break;
+	}
+	case "seven":
+	{
+	 document.writeln("The Day is Saturday");
+	 break;
+	}
+	default:
+	{
+	 document.writeln("The Valid Range is 1-7");
+	 break;
+	}
+
+
+
+}
+
+}
+function display3()
+{
+var num=0;
+while(num<10)
+{
+document.writeln("The Value is "+num);
+document.writeln('<br>');
+num++;
+}
+
+}
+
+function display4()
+{
+var num,sqr,reply;
+do
+{
+num=prompt("Enter any Number");
+sqr=num*num;
+if(num>=25)
+{
+alert("Sorry Valid range is 0-25");
+continue;
+}
+alert("The square of your number is"+sqr);
+reply=prompt("Do you wish to continue Y/N");
+}while(reply=='Y');
+
+}
+function display5()
+{
+for(var obj=0;obj<10;obj++)
+{
+document.writeln("The value is "+obj);
+document.writeln('<br>');
+}
+}
+function display6()
+{
+var myArr=new Array(10);
+for(var i=0;i<10;i++)
+{
+myArr[i]=i;
+document.writeln("The Array element is "+myArr[i]);
+document.writeln('<br>');
+}
+
+}
+
+</script>
+<body>
+
+Calling javascript Function<br>
+<input type="button" value="If..else" onClick="display()" />
+<input type="button" value="If..else..if" onClick="display1()" />
+<input type="button" value="switch" onClick="display2()" />
+<input type="button" value="while" onClick="display3()" />
+<input type="button" value="dowhile" onClick="display4()" />
+<input type="button" value="for" onClick="display5()" />
+<input type="button" value="Array" onClick="display6()" />
+
+</body>
+</html>

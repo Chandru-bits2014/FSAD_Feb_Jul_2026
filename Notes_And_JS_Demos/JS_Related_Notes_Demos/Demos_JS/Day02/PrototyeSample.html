@@ -1,0 +1,47 @@
+<html>
+<head>
+<script src="jsb-global.js"></script>
+<script src="proto1.js"></script>
+</head>
+<body bgcolor="aqua">
+<table border="2">
+<tr><th colspan="2">ProtoType Sample</th></tr>
+<tr><td>Enter String :</td><td><input type="text" id="t1" /> </td></tr>
+<tr><td>Result Of InitializeCaps()</td><td><input type="text" id="resultStr" /></td></tr>
+<tr><td><input type="submit" id="s1" value="getInitializeCapped" /></td><td><input type="reset" value="ReSet.." /></td></tr>
+
+</table>
+</body>
+</html>
+--------------------------
+addEvent(window,'load',initialize);
+function initialize()
+{
+var subButton = document.getElementById('s1');
+addEvent(s1,'click',addStrFunction);
+}
+function addStrFunction()
+{
+var sourceStr = document.getElementById('t1').value;
+//sourceStr.initializeCap  ---sourceStr = god is great --->God Is Great
+var initCappedString = sourceStr.initializeCap();
+var resultStrt = document.getElementById('resultStr');
+resultStrt.value =  initCappedString;
+}
+String.prototype.initializeCap=function()
+{
+var sourceStrAr = this.split(' ');
+for(var i=0;i<sourceStrAr.length;i++)
+{
+var firstPartStr = sourceStrAr[i].substr(0,1);
+var secondPartStr = sourceStrAr[i].substr(1);
+
+var firstPartStrU = firstPartStr.toUpperCase();
+var secondPartStr = secondPartStr.toLowerCase();
+
+var finalStr = firstPartStrU+secondPartStr;
+sourceStrAr[i]=finalStr;
+}
+var resultStr1 = sourceStrAr.join(' ');
+return resultStr1;
+}

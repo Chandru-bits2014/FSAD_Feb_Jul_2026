@@ -1,0 +1,47 @@
+String.prototype.initialCaps = function()
+{
+
+
+
+}
+
+var str1=new String("helloworld");
+str1.slice(2,4)
+
+str2.substring(2,5)
+
+
+String:   predefined class
+
+prototype : keyword for prototyping
+
+
+initialcaps methodname which we want to add to String class
+
+function : keyword
+------------------------------------
+Math pow/sqrt/floor/ceil
+
+Math.pow(2,3)------8
+Math.sqrt(144)------12
+Math.findSinterest(2,3,5)
+
+
+Date.prototype.myDate=function()
+{
+
+
+}
+var obj=new Date();
+obj.myDate()
+obj.getDate()
+
+Math.prototype.findSInterest=function(obj1,obj2)
+{
+
+
+
+
+
+}
+Math.findSInterest(x,y)

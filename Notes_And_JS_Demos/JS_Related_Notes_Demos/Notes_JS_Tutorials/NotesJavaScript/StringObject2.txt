@@ -1,0 +1,80 @@
+var doc;
+doc+="<html>";
+doc+="<body>";
+doc+=
+-----------------------------
+escape sequence
+\"  \'   \n \t \\
+----------------------------
+String Object:
+
+properties:
+constructor
+length
+prototype
+-------------------------------
+Methods:
+
+/big()/blink()/bold()/charAt()/charCodeAt()/concat()/fixed()/fontcolor()/fontsize()/fromCharCode(3)/indexOf()/italics()/lastIndexOf()/link()/localeCompare()/
+match()/replace()/search()/replace()/search()/slice()/small()/split()/strike()/sub()/substr()/substring()/sup()/toLocaleLowerString()/toLocaleUpperString()/toLowerCase()/toUpperCase()/toString()/valueOf()
+
+String.charCodeAt(65,66,67);
+
+var str1=new String("hello");
+str1.charAt(0)
+str1="Internet"
+str1.lastIndexOf('e')
+
+let text = "Free Web Building Training!";
+let result = text.link("https://www.anudip.org");
+
+<big>Hello</big>
+str1.big();
+
+str1="Internet"
+str1.charAt(3);   e
+charCodeAt-----ascii
+str1.indexOf('t');
+----------------------------------
+str1="hello world"
+str1.slice(2,3)---l
+str1.slice(2,6) llospace
+str1.slice(2,7) 1lo w
+str1.slice(2,-3) llo wo
+str1.slice(4,6)--ospace
+
+str1.substr(2,3)---llo
+str1.substr(3,5)---lo wo
+
+str1.subString(2,3)----l
+str1.subString(2,7)---llo w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

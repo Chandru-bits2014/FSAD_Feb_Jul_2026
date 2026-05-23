@@ -1,0 +1,18 @@
+<x>
+ <y></y>
+ <z></z>
+</x>
+new Student()
+
+class Student
+
+var dt=new Date()
+var st=new String()
+var nu=new Number()
+
+dt.toLocaleString()
+
+student st=new student()
+
+
+new student()

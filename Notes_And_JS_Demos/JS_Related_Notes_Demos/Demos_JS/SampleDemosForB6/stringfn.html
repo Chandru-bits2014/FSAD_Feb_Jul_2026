@@ -1,0 +1,54 @@
+<html>
+<script language="javascript">
+function slicefn()
+{
+
+var str=document.getElementById('t1').value;
+var arg1=document.getElementById('t2').value;
+var arg2=document.getElementById('t3').value;
+var strResult=str.slice(arg1,arg2);
+document.write("The string is "+str);
+document.write('<br>');
+document.write("The slice of the string is  :"+strResult);
+
+
+}
+function substrfn()
+{
+var str=document.getElementById('t1').value;
+var arg1=document.getElementById('t2').value;
+var arg2=document.getElementById('t3').value;
+var strResult=str.substr(arg1,arg2);
+document.write("The string is "+str);
+document.write('<br>');
+document.write("The substr of the string is   :"+strResult);
+
+
+}
+function substringfn()
+{
+var str=document.getElementById('t1').value;
+var arg1=document.getElementById('t2').value;
+var arg2=document.getElementById('t3').value;
+var strResult=str.substring(arg1,arg2);
+document.write("The string is "+str);
+document.write('<br>');
+document.write("The substring of the string is   :"+strResult);
+
+
+
+}
+
+</script>
+
+<body>
+Enter a String :<input type="textBox" id="t1" /><br>
+Enter First argument :<input type="textBox" id="t2" /><br>
+Enter Second Argument :<input type="textbox" id="t3" /><br>
+<input type="button" value="slice" onClick="slicefn()" />
+<input type="button" value="substr" onClick="substrfn()" />
+<input type="button" value="substring" onClick="substringfn()" />
+
+
+</body>
+</html>

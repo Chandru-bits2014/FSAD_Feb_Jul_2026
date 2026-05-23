@@ -1,0 +1,13 @@
+Objects:
+
+Function
+Object
+Number
+Boolean
+Date
+Math
+Null
+String
+Array
+
+-----------------------------------
