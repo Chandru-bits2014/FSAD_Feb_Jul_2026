@@ -1,0 +1,8 @@
+Since the REACT Project is too huge due to the insatlled components in the "node_modules" folder,
+the same is emptied before uploading to GITHUB
+
+therefore
+You can create a New Project and copy the necessary component files
+and necessary code from app.js into your New Project
+
+then it runs smoothly
